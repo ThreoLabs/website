@@ -13,11 +13,16 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/counter.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
 
 
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 
 
     <!-- Custom fonts for this template -->
@@ -51,13 +56,16 @@
               <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#portfolio">Projects</a>
+              <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#team">Team</a>
+                <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#projectgallery">Project Gallery</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger hvr-float-shadow" href="#contact">Contact</a>
@@ -128,7 +136,7 @@
     </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio" style=" height:auto; background-image: url(img/home.jpg);background-size: cover;background-attachment: fixed; opacity: 0.8;">
+    <section class="bg-light" id="projects" style=" height:auto; background-image: url(img/home.jpg);background-size: cover;background-attachment: fixed; opacity: 0.8;">
      
       <div class="container">
         <h1 style="text-align:center;color:rgb(255, 208, 0)">OUR PROJECTS</h1><br>
@@ -256,12 +264,13 @@
         </div>
       </div>-->
       <!-- <h1 style="text-align:center;color:rgb(255, 208, 0)">COMING SOON :)</h1> -->
+      </div>
     </section>
 
     <!-- About -->
     
       <section id="about" style="background-image: url(img/about.jpg);background-size: cover;background-attachment: fixed; opacity: 0.9; height: auto;" >
-        <div class="container"  style="width:45%; background-color: rgb(0, 0, 0,0.3)">
+        <div class="container"  style="width:45%; background-color: rgb(0, 0, 0,0.">
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading text-uppercase" style="color:white;text-align:center;">About</h2>
@@ -336,9 +345,77 @@
               </li>
             </ul>
           </div>
-        </div>
-      </div>-->
+        </div>-->
+      </div>
     </section>
+    <section id="projectgallery">
+        <div class="container">
+     
+ 
+ 
+            <div class="container gallery-container">
+              
+                <h1 class="text-center">Project Gallery</h1>
+              
+                <p class="page-description text-center">This image gallery contains sample images of our best projects.Watch them and take the best option of giving your project to us.</p>
+                  
+                <div class="gallery">
+              
+                    <div class="row">
+                        <div class="col-md-4">
+                          <div class="card">
+                                <a  href="images/01.png" data-lightbox="projGallery" >
+                                <img src="images/01.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a  href="images/02.png" data-lightbox="projGallery" >
+                                <img src="images/02.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a  href="images/01.png" data-lightbox="projGallery" >
+                                <img src="images/01.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>  
+                    </div>      
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a  href="images/02.png" data-lightbox="projGallery" >
+                                <img src="images/02.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a href="images/01.png" data-lightbox="projGallery"  >
+                                <img src="images/01.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a  href="images/02.png" data-lightbox="projGallery">
+                                <img src="images/02.png" alt="Park" class="card-img-top" >
+                                </a>
+                                </div>
+                        </div>        
+                        </div>
+                
+              
+                </div>
+              
+            </div>
+             </div>
+            
+        
+  </section>
 
     <!-- Team -->
     <section class="bg-light" id="team" >
@@ -454,7 +531,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">Copyright &copy; THREOLABS 2019</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -710,6 +787,7 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
 
+    
   </body>
 
 </html>
