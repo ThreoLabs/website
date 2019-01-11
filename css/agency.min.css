@@ -9,10 +9,11 @@ p {
     line-height: 1.75;
 }
 a {
-    color: #fed136;
+    color: #c5c5c5;
 }
 a:hover {
-    color: #fec503;
+    color: #c5c5c5;
+    text-decoration: none;
 }
 .text-primary {
     color: #fed136!important;
@@ -544,7 +545,7 @@ footer ul.quicklinks {
 ul.social-buttons {
     margin-bottom: 0;
 }
-ul.social-buttons li a {
+li.social-buttons-tw  a {
     font-size: 20px;
     line-height: 50px;
     display: block;
@@ -552,14 +553,83 @@ ul.social-buttons li a {
     height: 50px;
     -webkit-transition: all .3s;
     transition: all .3s;
-    color: #fff;
+    color: #1da1f2;
     border-radius: 100%;
     outline: 0;
-    background-color: #212529;
+    background-color: #ffffff;
 }
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #fed136;
+
+li.social-buttons-fa  a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #3b5998;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #ffffff;
 }
+
+
+
+li.social-buttons-in  a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #283e4a;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #ffffff;
+}
+
+
+li.social-buttons-insta  a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #ed4956;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #ffffff;
+}
+
+
+
+li.social-buttons-in  a:hover {
+    background-color: #283e4a;
+    color:#ffffff
+}
+
+
+li.social-buttons-fa  a:hover {
+    background-color: #3b5998;
+    color:#ffffff
+}
+
+
+li.social-buttons-tw  a:hover {
+    background-color: #1da1f2;
+    color:#ffffff
+}
+
+li.social-buttons-insta  a:hover {
+    background-color: #ed4956;
+    color:#ffffff
+}
+
+
+
 
 .disabled{
     pointer-events: none;
