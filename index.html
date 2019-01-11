@@ -41,7 +41,17 @@
 
   </head>
 
-  <body id="page-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+    <!-- PRE LOADER -->
+<div class="preloader">
+    <div class="spinner">
+         <span class="spinner-rotate"></span>
+    </div>
+</div>
+
+
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar fixed-top" id="mainNav">
@@ -412,7 +422,7 @@
         </div>
       </div>
     </footer>
-
+    <button id="topBtn" href="#0" class="btn btn-primary cd-top js-cd-top"><span class="iconify" data-icon="bytesize:caret-top" data-inline="false"></span></button>
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
@@ -619,6 +629,16 @@
       </div>
     </div>
 
+    <!--Script for back to top button-->
+    <script src="js/backtotop.js"></script>
+    
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="//code.iconify.design/1/1.0.0-rc5/iconify.min.js"></script>
+    <script src="js/custom.js"></script>
+        
+
     <!-- Bootstrap core JavaScript -->
     <script src="js/counter.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -638,7 +658,6 @@
       AOS.init();
     </script>
 
-    
   </body>
 
 </html>
