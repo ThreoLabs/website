@@ -14,7 +14,7 @@ $(window).scroll(function() {
 
         {
 
-          duration: 1000,
+          duration: 800,
           easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));
