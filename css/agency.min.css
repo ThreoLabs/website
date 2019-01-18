@@ -746,8 +746,8 @@ opacity: 1;
 .iconify { width: 24px; height: 24; }
 
 .animated {
-    -webkit-animation-duration: 0.1ms;
-    animation-duration: 0.1ms;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
  }
@@ -761,3 +761,4 @@ opacity: 1;
     }
    
 }
+
