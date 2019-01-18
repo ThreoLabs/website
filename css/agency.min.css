@@ -49,13 +49,15 @@ section h3.section-subheading {
     padding: 20px 40px;
 }
 .btn-primary {
-    background-color: #fed136;
-    border:2px solid #ffffff;
+    background-color:transparent;
+    border: 0;
     border-radius: 15px;
+    margin-top: 14vw;
+   
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810!important;
-    border:2px solid #ffffff;
+    background-color: #7ed3b2    !important;
+    border:0 !important;
     color: #fff;
 }
 .btn-primary:active, .btn-primary:focus {
@@ -63,11 +65,11 @@ section h3.section-subheading {
     box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important;
 }
 ::-moz-selection {
-    background: #fed136;
+    background: #7ed3b2;
     text-shadow: none;
 }
 ::selection {
-    background: #fed136;
+    background: #7ed3b2;
     text-shadow: none;
 }
 img::-moz-selection {
@@ -739,4 +741,23 @@ opacity: .9;
 background-color: #000000  !important;
 
 opacity: 1;
+}
+
+.iconify { width: 24px; height: 24; }
+
+.animated {
+    -webkit-animation-duration: 0.1ms;
+    animation-duration: 0.1ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+ @media all and (max-width: 700px) {
+    .fa {
+        display:none;
+    }
+    .btn-primary{
+        display: none;
+    }
+   
 }
