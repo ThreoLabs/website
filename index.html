@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Official Business Website Of Threolabs">
+    <meta name="author" content="Team Threolabs">
 
     <title>ThreoLabs - You Decide We Design</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/counter.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <script src="//code.iconify.design/1/1.0.0-rc3/iconify.min.js"></script>
+    <link rel="stylesheet" href="css/packages.css">
 
 
-
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-  <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 
 
     <!-- Custom fonts for this template -->
@@ -39,920 +33,802 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
-     <!-- CSS for hover-overs -->
+    <!-- CSS for hover-overs -->
     <link href="css/hover.css" rel="stylesheet">
 
-    <link rel="icon"    href="images/tl.png">
+    <link rel="icon" href="images/tl.png">
 
-  </head>
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+    <style>
+        .headerImage {
+            /* The image used */
+            background-image: url("home.jpg");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #preloader {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            scale: 1.5;
+            display: block;
+            background: #fff url('loader.gif') no-repeat center center;
+        }
+        
+        #content {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
     <!-- PRE LOADER -->
-<div class="preloader">
-    <div class="spinner">
-         <span class="spinner-rotate"></span>
+    <div id="preloader">
+
     </div>
-</div>
 
 
 
+    <div id="content">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger hvr-bounce-in" href="#page-top">
+                    <img src="images/tl.png" style="height:4vw;width: 4vw" alt=""> ThreoLabs
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger hvr-bounce-in" href="#page-top">
-          <img src="images/tl.png" style="height:4vw;width: 4vw" alt="">
-          ThreoLabs
-
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-push" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-push" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-push" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger hvr-push" href="#projectgallery">Project Gallery</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger hvr-push" href="#team">Team</a>
-                </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger hvr-push" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#projectgallery">Project Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#packages">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger hvr-push" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-   <!-- Header -->
-   <header class="header-container" style="width:100%;
-   height:70vw;border-left: none; border-right: none;position:relative;padding: 20px;">
-      <div class="video-container" style="position: absolute;top: 0%;left:0%;height:100%;width:100%;overflow: hidden;">
-        <video  autoplay muted loop  style="position: absolute;z-index: -10; opacity: 0.85; width: 100%;">
-          <source src="videos/home.mp4" type="video/mp4">
-          </video>
-          <div class="container-fluid   " style="text-align: center;
-          padding-bottom: 2vw;   color: white; padding-top: 15vw;">
-            <div class="animated bounceInDown fast" style="font-size: 4vw;
-            font-style: italic;
-            font-weight:100 ;
-            line-height: 22px;
-            margin-bottom: 3vw;
-            font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">Welcome!</div>
-            <div class="animated bounceIn delay-1s " style="font-size: 5vw;
-            font-weight: 600;
-            line-height: 64.8px;
-            margin-bottom: 2vw;
-            font-family: 'Montserrat', sans-serif "  > - You Decide We Design - </div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger " href="#services"><i id="tel"  class="fa fa-angle-double-down fa-3x animated flash "></i></a>
-          </div>
-      </div>
-   
-    </header>
-    <!-- Services -->
-    <section id="services" style="position:relative;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1 class="section-heading text-uppercase"> Our Services</h1>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4 " data-aos="zoom-in" >
-            <span class="fa-stack fa-4x">
+        <!-- Header -->
+        <header class="header-container" style="width:100%;
+   height:70vw;border-left: none; border-right: none;position:relative;padding: 0px;">
+
+
+            <div class="headerImage">
+                <div style=" position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);">
+                    <h1 class="text-center" style="color: #fff; font-size:5vw">You Decide We Design</h1>
+                </div>
+            </div>
+
+
+        </header>
+        <!-- Services -->
+        <section id="services" style="position:relative;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="section-heading text-uppercase"> Our Services</h1>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 " data-aos="zoom-in">
+                        <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading ">Websites/Web Applications</h4>
-            <p class="text-muted">We will design your website/webapplication as you need.We will gurantee a quality product for a lower price.Contact Us for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
-          </div>
-          <div class="col-md-4" data-aos="zoom-in">
-            <span class="fa-stack fa-4x">
+                        <h4 class="service-heading ">Websites/Web Applications</h4>
+                        <p class="text-muted">We will design your website/webapplication as you need.We will gurantee a quality product for a lower price.Contact Us for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in">
+                        <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Software Products</h4>
-            <p class="text-muted">We will build your software according to your user requirements.Contact US for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
-          </div>
-          <div class="col-md-4" data-aos="zoom-in">
-            <span class="fa-stack fa-4x">
+                        <h4 class="service-heading">Software Products</h4>
+                        <p class="text-muted">We will build your software according to your user requirements.Contact US for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in">
+                        <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-mobile fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Mobile Apps</h4>
-            <p class="text-muted">Your Android application can be build easily by using our service for a lower price.Contact Us for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="projects" style=" height:auto; background-image: url(img/projects.jpeg);background-size: cover;background-attachment: fixed; opacity: 0.8;">
-     
-      <div class="container">
-        <h1 style="text-align:center" class="section-heading text-uppercase" >OUR PROJECTS</h1><br>
-          
-          <div class="row text-center">
-            <div class="col-md-3">
-                  <div id="counter">
-                      <i class="fa fa-code fa-2x"></i>
-                      <h1><div class="counter-value" data-count="25">0</div></h1>
-                      <p class="count-text ">Our Customers</p>
-                  </div>
-            </div>
-            <div class="col-md-3">
-                  <div id="counter">
-                      <i class="fa fa-coffee fa-2x"></i>
-                      <h1><div class="counter-value" data-count="20">0</div></h1>
-                      <p class="count-text ">Happy Clients</p>
-                  </div>
-            </div>
-                <div class="col-md-3">
-                    <div id="counter">
-                        <i class="fa fa-lightbulb fa-2x"></i>
-                        <h1><div class="counter-value" data-count="14">0</div></h1>
-                        <p class="count-text ">Projects Complete</p>
+                        <h4 class="service-heading">Mobile Apps</h4>
+                        <p class="text-muted">Your Android application can be build easily by using our service for a lower price.Contact Us for a quotation or Place your order in <a href="https://www.fiverr.com/threolabs" target="#blank" style="color:teal">Fiverr</a>.</p>
                     </div>
-               </div>
-                <div class="col-md-3">
-                    <div id="counter">
-                          <i class="fa fa-bug fa-2x"></i>
-                          <h1><div class="counter-value" data-count="60">0</div></h1>
-                          <p class="count-text ">Feedback</p>
-                   </div>
                 </div>
-          </div>
-      </div>
-    </section>
+            </div>
+        </section>
 
-    <!-- About -->
-    
-      <section id="about" style="background-image: url(img/about_new.jpg);background-size: cover;background-attachment: fixed; opacity: 0.9; height: auto;" >
+        <!-- Portfolio Grid -->
+        <section class="bg-light" id="projects" style=" height:auto; background-image: url(img/projects.jpeg);background-size: cover;background-attachment: fixed; opacity: 0.8;">
+
             <div class="container">
-              <div class="row">
-                <div class="col-lg-8 text-center" data-aos="fade-up"
-                data-aos-duration="1000">
-                  <h1 class="section-heading text-uppercase" style="color:white;text-align:center;">Who We Are ?</h1>
-                  <h3 class="section-subheading text-uppercase"  style="color:white;">Threolabs is  a startup company in Sri Lanka  which is a effort of three undergraduates of.Our ultimate goal is to provide a quality service by helping your company with a new website / web application or by automating your company processes by a new software / mobile app.Our slogan 'You Decide We Design' is chosen because that is our prime concern when dealing with our clients.We try our best to satisfy and keep our clients happy.</h3>
-                </div>
-              </div>
-            </div>
-    </section>
+                <h1 style="text-align:center" class="section-heading text-uppercase">OUR PROJECTS</h1><br>
 
-    <!--Project Gallery-->
-    <section id="projectgallery">
-        <div class="container">
-            <div class="container gallery-container">
-                <h1 class="text-center text-uppercase">Project Gallery</h1>
-                <p class="page-description text-center">This image gallery contains sample images of our best projects.Watch them and take the best option of giving your project to us.</p>
-                <div class="gallery">
-              
-                    <div class="row">
-                        <div class="col-md-4">
-                          <div class="card" data-aos="zoom-in">
-                                <a  href="images/02.png" data-lightbox="projGallery" >
-                                   <img src="images/02.png" alt="Park" class="card-img-top" >
-                                </a>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div id="counter">
+                            <i class="fa fa-code fa-2x"></i>
+                            <h1>
+                                <div class="counter-value" data-count="25">0</div>
+                            </h1>
+                            <p class="count-text ">Our Customers</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="counter">
+                            <i class="fa fa-coffee fa-2x"></i>
+                            <h1>
+                                <div class="counter-value" data-count="20">0</div>
+                            </h1>
+                            <p class="count-text ">Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="counter">
+                            <i class="fa fa-lightbulb fa-2x"></i>
+                            <h1>
+                                <div class="counter-value" data-count="14">0</div>
+                            </h1>
+                            <p class="count-text ">Projects Complete</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="counter">
+                            <i class="fa fa-bug fa-2x"></i>
+                            <h1>
+                                <div class="counter-value" data-count="60">0</div>
+                            </h1>
+                            <p class="count-text ">Feedback</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section id="about" style="background-image: url(img/about_new.jpg);background-size: cover;background-attachment: fixed; opacity: 0.9; height: auto;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 text-center" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="section-heading text-uppercase" style="color:white;text-align:center;">Who We Are ?</h1>
+                        <h3 class="section-subheading text-uppercase" style="color:white;">Threolabs is a startup company in Sri Lanka which is a effort of three undergraduates of.Our ultimate goal is to provide a quality service by helping your company with a new website / web application or by automating your company
+                            processes by a new software / mobile app.Our slogan 'You Decide We Design' is chosen because that is our prime concern when dealing with our clients.We try our best to satisfy and keep our clients happy.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Project Gallery-->
+        <section id="projectgallery">
+            <div class="container">
+                <div class="container gallery-container">
+                    <h1 class="text-center text-uppercase">Project Gallery</h1>
+                    <p class="page-description text-center">This image gallery contains sample images of our best projects.Watch them and take the best option of giving your project to us.</p>
+                    <div class="gallery">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/02.png" data-lightbox="projGallery">
+                                        <img src="images/02.png" alt="Park" class="card-img-top">
+                                    </a>
                                 </div>
-                        </div>
-                    <div class="col-md-4">
-                        <div class="card" data-aos="zoom-in">
-                                <a  href="images/01.png" data-lightbox="projGallery" >
-                                   <img src="images/01.png" alt="Park" class="card-img-top" >
-                                </a>
-                        </div>
-                    </div>        
-                        <div class="col-md-4">
-                            <div class="card" data-aos="zoom-in">
-                                <a  href="images/03.JPG" data-lightbox="projGallery" >
-                                   <img src="images/03.JPG" alt="Park" class="card-img-top" >
-                                </a>
                             </div>
-                        </div>  
-                    </div>      
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/01.png" data-lightbox="projGallery">
+                                        <img src="images/01.png" alt="Park" class="card-img-top">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/03.JPG" data-lightbox="projGallery">
+                                        <img src="images/03.JPG" alt="Park" class="card-img-top">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/05.jpg" data-lightbox="projGallery">
+                                        <img src="images/05.jpg" alt="Park" class="card-img-top">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/06.JPG" data-lightbox="projGallery">
+                                        <img src="images/06.JPG" alt="Park" class="card-img-top">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card" data-aos="zoom-in">
+                                    <a href="images/04.JPG" data-lightbox="projGallery">
+                                        <img src="images/04.JPG" alt="Park" class="card-img-top">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Price Packages-->
+        <section id="packages">
+            <div class="container">
+
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="card" data-aos="zoom-in">
-                                <a  href="images/05.jpg" data-lightbox="projGallery" >
-                                    <img src="images/05.jpg" alt="Park" class="card-img-top" >
-                                </a>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="panel panel-primary " data-aos="zoom-in">
+                                <div class="panel-heading-primary">
+                                    <h3 class="panel-title">
+                                        Bronze</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="the-price">
+                                        <h1>
+                                            LKR10000<span class="subscript"></span></h1>
+                                        <small>*Displays ThreoLabs ads</small>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                Free Web Hosting
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                Integrated Ecommerce (Online Store)
+                                                <span class="iconify" data-icon="emojione:cross-mark-button" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Unlimited Pages
+                                                <span class="iconify" data-icon="emojione:cross-mark-button" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                SEO
+                                                <span class="iconify" data-icon="emojione:cross-mark-button" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Free Domain Name
+                                                <span class="iconify" data-icon="emojione:cross-mark-button" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="https://www.fiverr.com/threolabs/design-your-professional-looking-responsive-website" target="_blank"><button class="btn btn-warning" style="background-color:#448ef6" >Order Now</button></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+
+                                </div>
                             </div>
-                        </div>        
-                    <div class="col-md-4">
-                        <div class="card" data-aos="zoom-in">
-                                <a href="images/06.JPG" data-lightbox="projGallery"  >
-                                <img src="images/06.JPG" alt="Park" class="card-img-top" >
-                                </a>
                         </div>
-                    </div>        
-                    <div class="col-md-4">
-                          <div class="card" data-aos="zoom-in">
-                                <a  href="images/04.JPG" data-lightbox="projGallery">
-                                    <img src="images/04.JPG" alt="Park" class="card-img-top" >
+                        <div class="col-xs-12 col-md-4">
+                            <div class="panel panel-success" data-aos="zoom-in">
+                                <div class="cnrflash">
+                                    <div class="cnrflash-inner">
+                                        <span class="cnrflash-label">MOST
+                                <br>
+                                POPULR</span>
+                                    </div>
+                                </div>
+                                <div class="panel-heading-silver">
+                                    <h3 class="panel-title">
+                                        Silver</h3>
+
+                                </div>
+                                <div class="panel-body">
+                                    <div class="the-price">
+                                        <h1>
+                                            LKR15000<span class="subscript"></span></h1>
+                                        <small>No Advertising</small>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                Free Web Hosting
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                Integrated Ecommerce (Online Store)
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Unlimited Pages
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                SEO
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Free Domain Name
+                                                <span class="iconify" data-icon="emojione:cross-mark-button" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="https://www.fiverr.com/threolabs/design-your-professional-looking-responsive-website" target="_blank"><button class="btn btn-warning" style="background-color:#c5c5c5" >Order Now</button></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="panel panel-info" data-aos="zoom-in">
+                                <div class="panel-heading-gold">
+                                    <h3 class="panel-title">
+                                        Gold</h3>
+
+                                </div>
+                                <div class="panel-body">
+                                    <div class="the-price">
+                                        <h1>
+                                            LKR20000<span class="subscript"></span></h1>
+                                        <small>No Advertising</small>
+                                    </div>
+                                    <table class="table">
+                                        <tr>
+                                            <td>
+                                                Free Web Hosting
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                Integrated Ecommerce (Online Store)
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                Unlimited Pages
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td>
+                                                SEO
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Free Domain Name
+                                                <span class="iconify" data-icon="emojione:white-heavy-check-mark" data-inline="false"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://www.fiverr.com/threolabs/design-your-professional-looking-responsive-website" target="_blank"><button class="btn btn-warning" style="background-color:#ff8b00" >Order Now</button></a>
+                                                </td>
+                                            </tr>
+
+
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- Team -->
+        <section class="bg-light" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="section-heading text-uppercase"> Our Team</h1>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle  hvr-grow-rotate" src="img/team/dureksha.jpg" alt="">
+                            <h4>Dureksha Wasala</h4>
+                            <p></p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
+                                    <a href="https://www.instagram.com/dureksha_29/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
+                                    <a href="https://www.facebook.com/dureksha.wasala.1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
+                                    <a href="https://www.linkedin.com/in/dureksha-wasala-88a15015a/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle hvr-grow-rotate" src="img/team/navindu.JPG" alt="">
+                            <h4>Navindu Jayatilake</h4>
+                            <p></p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
+                                    <a href="https://www.instagram.com/iamnavindu/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
+                                    <a href="https://www.facebook.com/navinduuu">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
+                                    <a href="https://www.linkedin.com/in/navindu-jayatilake-40ab87157/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle hvr-grow-rotate" src="img/team/pamuditha.jpg" alt="">
+                            <h4>Pamuditha Maduranga</h4>
+                            <p></p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
+                                    <a href="https://www.instagram.com/___pamu__/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
+                                    <a href="https://www.facebook.com/pamudithamaduranga">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
+                                    <a href="https://www.linkedin.com/">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" style="background-image: url(img/book.jpg);background-size: cover;background-attachment: fixed; opacity: 1;">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <img src="img/CONTACT US_macbookpro15_front.png" style=" width: 100%; height: 100%;" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul class="social-buttons">
+                            <br>
+                            <li class="list-inline-item list-inline social-buttons-tw">
+                                <a href="https://www.twitter.com/ThreoL" target="blank">
+                                    <i class="fab fa-twitter"></i>
                                 </a>
-                          </div>
-                    </div>        
-                  </div>
+                            </li>
+                            <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
+                                <a href="https://www.facebook.com/Threolabs-944630005744511/" class="fa" target="blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item list-inline-item list-inline social-buttons-in">
+                                <a href="https://www.instagram.com/threolabs/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/tl.png" style="height:6vw;width: 6vw" alt="threolabslk"> <br>
+                        <span class="copyright">Copyright &copy; 2019 ThreoLabs . All Rights Reserved</span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <li class="list-inline-item">
+                            <br>
+                            <a style="cursor:pointer;">
+                                <p style="color:#c5c5c5" data-toggle="modal" data-target="#exampleModalLong"> <small>Privacy Policy</small> </p>
+                            </a>
+
+                        </li>
+
+                    </div>
+
                 </div>
             </div>
-          </div>      
-  </section>
+        </footer>
+        <button id="topBtn" href="#0" class="btn btn-primary cd-top js-cd-top"><span class="iconify" data-icon="bytesize:caret-top" data-inline="false"></span></button>
 
-    <!-- Team -->
-    <section class="bg-light" id="team" >
-      <div class="container">
-        <div class="row" >
-          <div class="col-lg-12 text-center" >
-            <h1 class="section-heading text-uppercase"> Our Team</h1>
-           
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle  hvr-grow-rotate" src="img/team/dureksha.jpg" alt="">
-              <h4>Dureksha Wasala</h4>
-              <p></p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
-                  <a href="https://www.instagram.com/dureksha_29/">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
-                  <a href="https://www.facebook.com/dureksha.wasala.1">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
-                  <a href="https://www.linkedin.com/in/dureksha-wasala-88a15015a/">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle hvr-grow-rotate" src="img/team/navindu.jpg" alt="">
-              <h4>Navindu Jayatilake</h4>
-              <p></p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
-                  <a href="https://www.instagram.com/iamnavindu/">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
-                  <a href="https://www.facebook.com/navinduuu">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
-                  <a href="https://www.linkedin.com/in/navindu-jayatilake-40ab87157/">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle hvr-grow-rotate" src="img/team/pamuditha.jpg" alt="">
-              <h4>Pamuditha Maduranga</h4>
-              <p></p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item list-inline-item list-inline social-buttons-insta">
-                  <a href="https://www.instagram.com/___pamu__/">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
-                  <a href="https://www.facebook.com/pamudithamaduranga">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item list-inline-item list-inline social-buttons-in">
-                  <a href="https://www.linkedin.com/">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </section>
 
-    <!-- Contact -->
-    <section id="contact"  style="background-image: url(img/book.jpg);background-size: cover;background-attachment: fixed; opacity: 1;">
-       <div class="container"    data-aos="fade-up">
-      <div class="row">
-        <div class="col-sm-12">
-      
-          <img src="img/CONTACT US_macbookpro15_front.png" style=" width: 100%; height: 100%;" alt="">
-        </div>
-      </div>
+
+
     </div>
-
-    </section> 
-   
-
-
-
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <ul class="social-buttons">
-              <br>
-              <li class="list-inline-item list-inline social-buttons-tw">
-                <a href="https://www.twitter.com/ThreoL" target="blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item list-inline-item list-inline social-buttons-fa">
-                <a href="https://www.facebook.com/Threolabs-944630005744511/" class="fa" target="blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item list-inline-item list-inline social-buttons-in">
-                <a href="https://www.instagram.com/threolabs/">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-              <img src="images/tl.png" style="height:6vw;width: 6vw" alt="threolabslk"> <br>
-              <span class="copyright">Copyright &copy; 2019 ThreoLabs . All Rights Reserved</span>
-            </div>
-            
-            <div class="col-md-3">
-                <li class="list-inline-item">
-                  <br>
-                     <a style="cursor:pointer;" ><p  style="color:#c5c5c5" data-toggle="modal" data-target="#exampleModalLong"> <small>Privacy Policy</small> </p> </a>
-                    
-                  </li>
-                   <li class="list-inline-item"> <p style="color:#c5c5c5"  data-toggle="modal" data-target="#modalTerms"> <a style="cursor:pointer;"><small>Terms of Use </small> </a> </p>
-                  </li>
-            </div>
-      
-        </div>
-      </div>
-    </footer>
-    <button id="topBtn" href="#0" class="btn btn-primary cd-top js-cd-top"><span class="iconify" data-icon="bytesize:caret-top" data-inline="false"></span></button>
-    <!-- Portfolio Modals -->
-
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
 
     <!-- Modal Privacy Policy -->
-<div class="modal fade modal" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade modal" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
-      <div class="modal-body">
-        <h1>Privacy Policy</h1>
+                </div>
+                <div class="modal-body">
+                    <h1>Privacy Policy</h1>
 
 
-<p>Effective date: January 18, 2019</p>
+                    <p>Effective date: January 18, 2019</p>
 
 
-<p>Threolabs ("us", "we", or "our") operates the www.threolabs.com website (hereinafter referred to as the "Service").</p>
+                    <p>Threolabs ("us", "we", or "our") operates the www.threolabs.com website (hereinafter referred to as the "Service").</p>
 
-<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy  for Threolabs is based on the <a href="https://privacypolicies.com/blog/privacy-policy-template/">Privacy Policy Template from Privacy Policies</a>.</p>
+                    <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Threolabs is based on the <a href="https://privacypolicies.com/blog/privacy-policy-template/">Privacy Policy Template from Privacy Policies</a>.</p>
 
-<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from www.threolabs.com</p>
-
-
-<h2>Information Collection And Use</h2>
-
-<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
-
-<h3>Types of Data Collected</h3>
-
-<h4>Personal Data</h4>
-
-<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
-
-<ul>
-<li>Email address</li><li>First name and last name</li><li>Cookies and Usage Data</li>
-</ul>
-
-<h4>Usage Data</h4>
-
-<p>We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-
-<h4>Tracking & Cookies Data</h4>
-<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
-<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
-<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. You can learn more how to manage cookies in the <a href="https://privacypolicies.com/blog/how-to-delete-cookies/">Browser Cookies Guide</a>.</p>
-<p>Examples of Cookies we use:</p>
-<ul>
-    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
-    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
-    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
-</ul>
-
-<h2>Use of Data</h2>
-    
-<p>Threolabs uses the collected data for various purposes:</p>    
-<ul>
-    <li>To provide and maintain the Service</li>
-    <li>To notify you about changes to our Service</li>
-    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
-    <li>To provide customer care and support</li>
-    <li>To provide analysis or valuable information so that we can improve the Service</li>
-    <li>To monitor the usage of the Service</li>
-    <li>To detect, prevent and address technical issues</li>
-</ul>
-
-<h2>Transfer Of Data</h2>
-<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
-<p>If you are located outside Sri Lanka and choose to provide information to us, please note that we transfer the data, including Personal Data, to Sri Lanka and process it there.</p>
-<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-<p>Threolabs will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
-
-<h2>Disclosure Of Data</h2>
-
-<h3>Legal Requirements</h3>
-<p>Threolabs may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
-<ul>
-    <li>To comply with a legal obligation</li>
-    <li>To protect and defend the rights or property of Threolabs</li>
-    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
-    <li>To protect the personal safety of users of the Service or the public</li>
-    <li>To protect against legal liability</li>
-</ul>
-
-<h2>Security Of Data</h2>
-<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
-
-<h2>Service Providers</h2>
-<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
-<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+                    <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy
+                        Policy have the same meanings as in our Terms and Conditions, accessible from www.threolabs.com</p>
 
 
+                    <h2>Information Collection And Use</h2>
 
-<h2>Links To Other Sites</h2>
-<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
-<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+                    <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+
+                    <h3>Types of Data Collected</h3>
+
+                    <h4>Personal Data</h4>
+
+                    <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited
+                        to:
+                    </p>
+
+                    <ul>
+                        <li>Email address</li>
+                        <li>First name and last name</li>
+                        <li>Cookies and Usage Data</li>
+                    </ul>
+
+                    <h4>Usage Data</h4>
+
+                    <p>We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the
+                        pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+
+                    <h4>Tracking & Cookies Data</h4>
+                    <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+                    <p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts
+                        to collect and track information and to improve and analyze our Service.</p>
+                    <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service. You can learn more how to manage cookies
+                        in the <a href="https://privacypolicies.com/blog/how-to-delete-cookies/">Browser Cookies Guide</a>.</p>
+                    <p>Examples of Cookies we use:</p>
+                    <ul>
+                        <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+                        <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+                        <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+                    </ul>
+
+                    <h2>Use of Data</h2>
+
+                    <p>Threolabs uses the collected data for various purposes:</p>
+                    <ul>
+                        <li>To provide and maintain the Service</li>
+                        <li>To notify you about changes to our Service</li>
+                        <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+                        <li>To provide customer care and support</li>
+                        <li>To provide analysis or valuable information so that we can improve the Service</li>
+                        <li>To monitor the usage of the Service</li>
+                        <li>To detect, prevent and address technical issues</li>
+                    </ul>
+
+                    <h2>Transfer Of Data</h2>
+                    <p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those
+                        from your jurisdiction.</p>
+                    <p>If you are located outside Sri Lanka and choose to provide information to us, please note that we transfer the data, including Personal Data, to Sri Lanka and process it there.</p>
+                    <p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+                    <p>Threolabs will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless
+                        there are adequate controls in place including the security of your data and other personal information.</p>
+
+                    <h2>Disclosure Of Data</h2>
+
+                    <h3>Legal Requirements</h3>
+                    <p>Threolabs may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+                    <ul>
+                        <li>To comply with a legal obligation</li>
+                        <li>To protect and defend the rights or property of Threolabs</li>
+                        <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+                        <li>To protect the personal safety of users of the Service or the public</li>
+                        <li>To protect against legal liability</li>
+                    </ul>
+
+                    <h2>Security Of Data</h2>
+                    <p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal
+                        Data, we cannot guarantee its absolute security.</p>
+
+                    <h2>Service Providers</h2>
+                    <p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+                    <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
 
 
-<h2>Children's Privacy</h2>
-<p>Our Service does not address anyone under the age of 18 ("Children").</p>
-<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+
+                    <h2>Links To Other Sites</h2>
+                    <p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+                    <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
 
 
-<h2>Changes To This Privacy Policy</h2>
-<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
-<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                    <h2>Children's Privacy</h2>
+                    <p>Our Service does not address anyone under the age of 18 ("Children").</p>
+                    <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become
+                        aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
 
 
-<h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us:</p>
-<ul>
-        <li>By email: threolabslk@gmail.com</li>
-            <li>By visiting this page on our website: www.threolabs.com</li>
-      
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+                    <h2>Changes To This Privacy Policy</h2>
+                    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+                    <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+                    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 
-  
-         
-    <!-- Modal Terms -->
-<div class="modal fade modal" id="modalTerms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Terms Of Use</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h2>Welcome to ThreoLabs</h2>
-        <p>These terms and conditions outline the rules and regulations for the use of ThreoLabs's Website.</p> <br /> 
-        <span style="text-transform: capitalize;"> ThreoLabs</span> is located at:<br /> 
-        <address> , <br /> - , Sri Lanka<br />
-        </address>
-        <p>By accessing this website we assume you accept these terms and conditions in full. Do not continue to use ThreoLabs's website 
-        if you do not accept all of the terms and conditions stated on this page.</p>
-        <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice
-        and any or all Agreements: “Client”, “You” and “Your” refers to you, the person accessing this website
-        and accepting the Company’s terms and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers
-        to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client
-        or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake
-        the process of our assistance to the Client in the most appropriate manner, whether by formal meetings
-        of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect
-        of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law
-        of Sri Lanka. Any use of the above terminology or other words in the singular, plural,
-        capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p><h2>Cookies</h2>
-        <p>We employ the use of cookies. By using ThreoLabs's website you consent to the use of cookies 
-        in accordance with ThreoLabs’s privacy policy.</p><p>Most of the modern day interactive web sites
-        use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site
-        to enable the functionality of this area and ease of use for those people visiting. Some of our 
-        affiliate / advertising partners may also use cookies.</p><h2>License</h2>
-        <p>Unless otherwise stated, ThreoLabs and/or it’s licensors own the intellectual property rights for
-        all material on ThreoLabs. All intellectual property rights are reserved. You may view and/or print
-        pages from http://www.threolabs.com for your own personal use subject to restrictions set in these terms and conditions.</p>
-        <p>You must not:</p>
-        <ol>
-          <li>Republish material from http://www.threolabs.com</li>
-          <li>Sell, rent or sub-license material from http://www.threolabs.com</li>
-          <li>Reproduce, duplicate or copy material from http://www.threolabs.com</li>
-        </ol>
-        <p>Redistribute content from ThreoLabs (unless content is specifically made for redistribution).</p>
-      <h2>Hyperlinking to our Content</h2>
-        <ol>
-          <li>The following organizations may link to our Web site without prior written approval:
-            <ol>
-            <li>Government agencies;</li>
-            <li>Search engines;</li>
-            <li>News organizations;</li>
-            <li>Online directory distributors when they list us in the directory may link to our Web site in the same
-              manner as they hyperlink to the Web sites of other listed businesses; and</li>
-            <li>Systemwide Accredited Businesses except soliciting non-profit organizations, charity shopping malls,
-              and charity fundraising groups which may not hyperlink to our Web site.</li>
-            </ol>
-          </li>
-        </ol>
-        <ol start="2">
-          <li>These organizations may link to our home page, to publications or to other Web site information so long
-            as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or
-            approval of the linking party and its products or services; and (c) fits within the context of the linking
-            party's site.
-          </li>
-          <li>We may consider and approve in our sole discretion other link requests from the following types of organizations:
-            <ol>
-              <li>commonly-known consumer and/or business information sources such as Chambers of Commerce, American
-                Automobile Association, AARP and Consumers Union;</li>
-              <li>dot.com community sites;</li>
-              <li>associations or other groups representing charities, including charity giving sites,</li>
-              <li>online directory distributors;</li>
-              <li>internet portals;</li>
-              <li>accounting, law and consulting firms whose primary clients are businesses; and</li>
-              <li>educational institutions and trade associations.</li>
-            </ol>
-          </li>
-        </ol>
-        <p>We will approve link requests from these organizations if we determine that: (a) the link would not reflect
-        unfavorably on us or our accredited businesses (for example, trade associations or other organizations
-        representing inherently suspect types of business, such as work-at-home opportunities, shall not be allowed
-        to link); (b)the organization does not have an unsatisfactory record with us; (c) the benefit to us from
-        the visibility associated with the hyperlink outweighs the absence of <?=$companyName?>; and (d) where the
-        link is in the context of general resource information or is otherwise consistent with editorial content
-        in a newsletter or similar product furthering the mission of the organization.</p>
-      
-        <p>These organizations may link to our home page, to publications or to other Web site information so long as
-        the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval
-        of the linking party and it products or services; and (c) fits within the context of the linking party's
-        site.</p>
-      
-        <p>If you are among the organizations listed in paragraph 2 above and are interested in linking to our website,
-        you must notify us by sending an e-mail to <a href="mailto:threolabslk@gmail.com" title="send an email to threolabslk@gmail.com">threolabslk@gmail.com</a>.
-        Please include your name, your organization name, contact information (such as a phone number and/or e-mail
-        address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site,
-        and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.</p>
-      
-        <p>Approved organizations may hyperlink to our Web site as follows:</p>
-      
-        <ol>
-          <li>By use of our corporate name; or</li>
-          <li>By use of the uniform resource locator (Web address) being linked to; or</li>
-          <li>By use of any other description of our Web site or material being linked to that makes sense within the
-            context and format of content on the linking party's site.</li>
-        </ol>
-        <p>No use of ThreoLabs’s logo or other artwork will be allowed for linking absent a trademark license
-        agreement.</p>
-      <h2>Iframes</h2>
-        <p>Without prior approval and express written permission, you may not create frames around our Web pages or
-        use other techniques that alter in any way the visual presentation or appearance of our Web site.</p>
-      <h2>Reservation of Rights</h2>
-        <p>We reserve the right at any time and in its sole discretion to request that you remove all links or any particular
-        link to our Web site. You agree to immediately remove all links to our Web site upon such request. We also
-        reserve the right to amend these terms and conditions and its linking policy at any time. By continuing
-        to link to our Web site, you agree to be bound to and abide by these linking terms and conditions.</p>
-      <h2>Removal of links from our website</h2>
-        <p>If you find any link on our Web site or any linked web site objectionable for any reason, you may contact
-        us about this. We will consider requests to remove links but will have no obligation to do so or to respond
-        directly to you.</p>
-        <p>Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness
-        or accuracy; nor do we commit to ensuring that the website remains available or that the material on the
-        website is kept up to date.</p>
-      <h2>Content Liability</h2>
-        <p>We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify
-        and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any
-        page on your Web site or within any context containing content or materials that may be interpreted as
-        libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or
-        other violation of, any third party rights.</p>
-      <h2>Disclaimer</h2>
-        <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill). Nothing in this disclaimer will:</p>
-        <ol>
-        <li>limit or exclude our or your liability for death or personal injury resulting from negligence;</li>
-        <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
-        <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
-        <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
-        </ol>
-        <p>The limitations and exclusions of liability set out in this Section and elsewhere in this disclaimer: (a)
-        are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer or
-        in relation to the subject matter of this disclaimer, including liabilities arising in contract, in tort
-        (including negligence) and for breach of statutory duty.</p>
-        <p>To the extent that the website and the information and services on the website are provided free of charge,
-        we will not be liable for any loss or damage of any nature.</p>
-      <h2></h2>
-        <p></p>
-      <h2>Credit & Contact Information</h2>
-        <p>This Terms and conditions page was created at <a style="color:inherit;text-decoration:none;cursor:text;"
-          href="https://termsandconditionstemplate.com">termsandconditionstemplate.com</a> generator. If you have
-        any queries regarding any of our terms, please contact us.</p>		
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                    <ul>
+                        <li>By email: threolabslk@gmail.com</li>
+                        <li>By visiting this page on our website: www.threolabs.com</li>
 
-        
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    
+
+    </div>
 
     <!--Script for back to top button-->
     <script src="js/backtotop.js"></script>
-    
+
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="js/jquery.parallax.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="//code.iconify.design/1/1.0.0-rc5/iconify.min.js"></script>
     <script src="js/custom.js"></script>
-        
+
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/counter.js"></script>
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="js/counter.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-
-
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/5c3c4bd2361b3372892ff69b/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-  </body>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5c3c4bd2361b3372892ff69b/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+</body>
 
 </html>
