@@ -509,7 +509,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width:768px) {
-    .timeline: before {
+    .timeline before {
         left: 50%
     }
     .timeline>li {
